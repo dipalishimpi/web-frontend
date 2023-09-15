@@ -1,0 +1,159 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font :normal 16px arial,helvetica,sans-serif;
+    line-height: 1.6em;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rebeccapurple;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: red;
+}
+.container{
+    width: 90%;   
+    margin:auto;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+.button:hover{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+}
+.clr{
+    clear: both;
+}
+.box-1{
+    background-color: #333;
+    color: white;
+    border: 5px red solid;
+    border-bottom-width: 15px;
+    border-top-width: 15px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.box-1 h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: wavy;
+    font-size: 200%;
+    text-transform: uppercase;
+
+}
+.box-2{
+    border:3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.box-3{
+    border:3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.categories{
+    border:2px #333 solid;
+    padding:0px;
+    margin: 60px 
+}
+.categories h3{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+    padding: 35px;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(/html/check\ \(1\).jpg) ;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form.form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"],.my-form textarea{
+    padding:8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-block{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(/html/dahlia.jpeg);
+    background-position: 100px 200px;
+    background-position:center center
+}
+.p-block h1{
+    position: absolute;
+    left:40px;
+    top:50px
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background-color: red;
+}
+.my-list li:last-child{
+    background-color: aqua;
+}
+.my-list li:nth-child(5){
+    background-color: #555555;
+}
+.my-list li:nth-child(even){
+    background-color: #d86f6f;
+}
+.error{
+    color:red;
+    padding:5px;
+    margin:5px
+}

@@ -1,0 +1,26 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen',sans-serif;
+}
+#header-nav{ 
+    height: 80px;
+    background-color:#f6b319 ;
+    border-radius:0 ;
+    border: 0;
+    padding-left: 60px;
+    display: flex;
+}
+
+.img-link{
+    height:80px;
+
+}
+.res-name{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}

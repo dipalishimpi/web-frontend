@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto' ,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    
+}
+header{
+    padding: 0 2rem;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 68px;
+    max-height: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.navbar_logo img{
+    width: 4.5rem;
+    height: 3.2rem;
+}
+.navbar_logo .navbar_brand a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar_info{
+    gap:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30rem;
+}
+.navbar_info .nav_time{
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+.navbar_info .nav_number{
+    font-size:1.2rem;
+    font-weight: bold;
+  
+}
+.navbar .toggle_btn{
+    color: #fde21c;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display: none;
+}
+.navbar .navbar_btn{
+    background: #fde21c;
+    border: none;
+    outline: none;
+    color: rgb(5, 4, 4);
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navbar .navbar_btn:hover{
+    background: white;
+    border: 2px solid #fde21c;
+}
+.navbar_links{
+    background-color: #fde21c;
+    color: #012f5b;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.navbar_links .links{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    position: absolute; 
+}
+.navbar_links .links a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    border-bottom: 3px solid transparent;
+}
+.navbar_links .links a:hover{
+    font-weight: 800;
+}
+
+/* responsive */
+
+@media(max-width:992px){
+    .nav_time,.navbar .navbar_btn,.navbar_logo .navbar_brand,.navbar_links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0px 5px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    body{
+        font-family: sans-serif;
+
+    }
+}
+.container{
+    height: 100vh;
+}
+
+.header{
+    
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-size: 40px;
+}
+.header__menu{
+    display:flex;
+    flex-direction: row;
+    font-size: 2.5vw;
+    gap: 15px;
+}
+.main{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.main__image{
+    width: 50%;
+    background-image: url("/bootstrap/images/Portrait.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+   
+}
+.main__text{
+    width: 50%;
+    display: grid;
+    place-content:center;
+
+}
+.main__text-1{
+    font-size: 10vw;
+}
+.main__text-2,.main__text-3,.main__text-4{
+    font-size: 5vw;
+}
+.footer{
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.footer__instagram img{
+    width: 5.3vw;
+}
+.footer__twitter img{
+    width: 5.3vw;
+}
+.footer__dribbble img{
+    width: 5.3vw;
+}
+.footer__behance img{
+    width: 5.3vw;
+}
+
+
+@media (max-width:650px){
+    .header{
+        justify-content: center;
+    }
+    .header__menu{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__image{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-size: 100%;
+        background-position: center;
+       
+    }
+    .main__text{
+        width: 100%;
+    }
+    .main__text-1{
+        display:none;
+    }
+    .main__text-2,.main__text-3,.main__text-4{
+        font-size: 34px;
+    }
+    .footer{
+        justify-content: center;
+        margin: 0px;
+    }
+    .footer__instagram img{
+        width: 45px;
+        height: 45px;
+    }
+    .footer__twitter img{
+        width: 45px;
+        height: 45px;
+    }
+    .footer__dribbble img{
+        width: 45px;
+        height: 45px;
+    }
+    .footer__behance img{
+        width: 45px;
+        height: 45px;
+    }
+}
